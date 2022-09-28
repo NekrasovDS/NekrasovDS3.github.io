@@ -56,12 +56,12 @@ nav{
 
 }
 
-#page2{
+.blok2{
 	order: 3;
 	flex:3;
 }
 
-#page3{
+.blok3{
 	order: 2;
 	flex:4;
 }
@@ -120,18 +120,18 @@ h3{
 	#testall {
 		flex-direction: column;
 }
-	#page1{
+	.blok1{
 		order: 1;
 		weight:300px;
 }
 
-	#page2{
+	.blok2{
 		order: 3;
 		weight:300px;
 		justify-content:center;
 }
 
-	#page3{
+	.blok3{
 		order: 2;
 		weight:300px;
 }
