@@ -42,14 +42,14 @@ nav{
 	border-radius: 10px;
 	background: #DC143C;
     margin: 30px auto;
-	order: 1;
+	order: 2;
 	flex: 1;
 	justify-content:center;
 }
 
 #page2{
 	background: #ff6347;
-	order: 3;
+	order: 4;
 	flex:3;
 	justify-content:center;
 	margin: 30px;
@@ -58,7 +58,7 @@ nav{
 
 #page3{
 	background: #ff6347;
-	order: 2;
+	order: 3;
 	flex:4;
 	justify-content:center;
 	margin: 30px;
@@ -134,4 +134,5 @@ h3{
 		weight:300px;
 }
 }
+
 
