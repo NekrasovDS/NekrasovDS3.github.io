@@ -53,19 +53,17 @@ nav{
     margin: 30px auto;
 	order: 1;
 	flex: 1;
-	justify-content:center;
+
 }
 
 #page2{
 	order: 3;
 	flex:3;
-	justify-content:center;
 }
 
 #page3{
 	order: 2;
 	flex:4;
-	justify-content:center;
 }
 
 #pages{
@@ -76,7 +74,6 @@ nav{
 
 header{
     height: 200px;
-	flex: column;
 background: linear-gradient(90deg, #8B4513, #FFD700);
 }
 
@@ -110,6 +107,7 @@ h3{
 #testall{
 	display: flex;
 	flex-direction: column;
+	justify-content:center;
 }
 
 
@@ -119,19 +117,22 @@ h3{
 	display:inline-block;
 		width: 500px;
 }
-	#allp {
+	#testall {
 		flex-direction: column;
 }
 	#page1{
 		order: 1;
+		weight:300px;
 }
 
 	#page2{
 		order: 3;
+		weight:300px;
 		justify-content:center;
 }
 
 	#page3{
 		order: 2;
+		weight:300px;
 }
 }
