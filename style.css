@@ -124,17 +124,14 @@ h3{
 }
 	#page1{
 		order: 1;
-		weight:300px;
 }
 
 	#page2{
 		order: 3;
-		weight:300px;
 		justify-content:center;
 }
 
 	#page3{
 		order: 2;
-		weight:300px;
 }
-
+}
