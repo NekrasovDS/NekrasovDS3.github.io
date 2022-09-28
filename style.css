@@ -53,16 +53,19 @@ nav{
     margin: 30px auto;
 	order: 1;
 	flex: 1;
+	justify-content:center;
 }
 
 #page2{
 	order: 3;
 	flex:3;
+	justify-content:center;
 }
 
 #page3{
 	order: 2;
 	flex:4;
+	justify-content:center;
 }
 
 #pages{
@@ -127,9 +130,11 @@ h3{
 	#page2{
 		order: 3;
 		weight:300px;
+		justify-content:center;
 }
 
 	#page3{
 		order: 2;
 		weight:300px;
 }
+
