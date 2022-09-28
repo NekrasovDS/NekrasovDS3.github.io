@@ -116,6 +116,9 @@ h3{
 	display:inline-block;
 		width: 500px;
 }
+	#allp {
+		flex-direction: column;
+}
 	#page1{
 		order: 1;
 		weight:300px;
